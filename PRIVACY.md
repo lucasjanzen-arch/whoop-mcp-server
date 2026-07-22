@@ -1,0 +1,7 @@
+What this app is. This application is a private, single-user integration operated by its sole user. It connects one WHOOP account (the operator's own) to an AI assistant for personal health and training analysis. It is not offered to the public, has no other users, and is not a commercial service.
+Data accessed. Via the WHOOP API, the app reads: physiological cycle data (strain, calorie burn, heart rate), recovery data (recovery score, HRV, resting heart rate, SpO2, skin temperature), sleep data, workout data, body measurements, and basic profile information.
+Purpose. The data is used exclusively to answer the operator's own questions about their training, recovery, sleep, and nutrition. No other purpose.
+Storage. OAuth tokens and a limited cache of recent data are stored on a private hosting instance (Railway) controlled by the operator. Data is transmitted over HTTPS only.
+Sharing. Data is never sold, rented, shared with third parties, or used for advertising or profiling. Data is processed by the AI assistant service (Anthropic's Claude) solely to generate responses to the operator's own queries.
+Retention and deletion. Data can be deleted at any time by the operator by deleting the hosting instance and revoking the app's access in the WHOOP account settings, which invalidates all tokens.
+Your rights. As the operator and sole data subject are the same person, all access, correction, and deletion rights are exercised directly by the operator. 
